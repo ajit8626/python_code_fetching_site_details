@@ -1,0 +1,173 @@
+{
+  "id": "69a2b1e1-a8ee-44da-83ef-54b44ec841b2",
+  "customerId": "db48181c-5f9f-4f40-982e-9fcfe61c604d",
+  "name": "AT214",
+  "shortName": "AT214",
+  "devices": [
+    {
+      "id": "dfaae249-1fca-c19f-ac91-4afc3e67e9f0",
+      "deviceType": "Rdm",
+      "deviceDetail": "Fueling Point 7 , Fueling Point 8, EMV 2.8.105.46",
+      "macAddress": "00155C4208BF",
+      "lastActive": "2020-07-08T11:57:39.25+00:00",
+      "doorSecurityAlarm": "Unknown",
+      "pumpState": "On",
+      "fuelingPoints": [
+        {
+          "id": 7,
+          "deviceId": "dfaae249-1fca-c19f-ac91-4afc3e67e9f0",
+          "name": "FuelingPoint 7"
+        },
+        {
+          "id": 8,
+          "deviceId": "dfaae249-1fca-c19f-ac91-4afc3e67e9f0",
+          "name": "FuelingPoint 8"
+        }
+      ],
+      "isLinkedToSite": true,
+      "site": "AT214",
+      "siteId": "69a2b1e1-a8ee-44da-83ef-54b44ec841b2",
+      "isActive": true,
+      "isDecommissioned": false
+    },
+    {
+      "id": "4529ca8a-f366-afab-2955-026e5411986f",
+      "deviceType": "Rdm",
+      "deviceDetail": "Fueling Point 9, EMV 2.8.105.46",
+      "macAddress": "00155C40D020",
+      "lastActive": "2020-07-08T09:47:36.717+00:00",
+      "doorSecurityAlarm": "Unknown",
+      "pumpState": "Off",
+      "fuelingPoints": [
+        {
+          "id": 9,
+          "deviceId": "4529ca8a-f366-afab-2955-026e5411986f",
+          "name": "FuelingPoint 9"
+        }
+      ],
+      "isLinkedToSite": true,
+      "site": "AT214",
+      "siteId": "69a2b1e1-a8ee-44da-83ef-54b44ec841b2",
+      "isActive": false,
+      "isDecommissioned": false
+    },
+    {
+      "id": "5a20cfa3-af43-4855-8623-5d1bdc02b63c",
+      "deviceType": "RmsDevice",
+      "deviceDetail": "Virtual Microgate",
+      "macAddress": "005056AB2495",
+      "lastActive": "2020-07-08T11:57:56.795+00:00",
+      "doorSecurityAlarm": "Unknown",
+      "pumpState": "On",
+      "fuelingPoints": [],
+      "isLinkedToSite": true,
+      "site": "AT214",
+      "siteId": "69a2b1e1-a8ee-44da-83ef-54b44ec841b2",
+      "isActive": true,
+      "isDecommissioned": false
+    },
+    {
+      "id": "07b7fe15-ca91-6789-2b25-1bc049d61150",
+      "deviceType": "Rdm",
+      "deviceDetail": "Fueling Point 5, EMV 2.8.105.46",
+      "macAddress": "00155C40D6A8",
+      "lastActive": "2020-07-08T11:57:39.25+00:00",
+      "doorSecurityAlarm": "Unknown",
+      "pumpState": "On",
+      "fuelingPoints": [
+        {
+          "id": 5,
+          "deviceId": "07b7fe15-ca91-6789-2b25-1bc049d61150",
+          "name": "FuelingPoint 5"
+        }
+      ],
+      "isLinkedToSite": true,
+      "site": "AT214",
+      "siteId": "69a2b1e1-a8ee-44da-83ef-54b44ec841b2",
+      "isActive": true,
+      "isDecommissioned": false
+    },
+    {
+      "id": "a1b0849f-51b4-4875-e6fe-bcfbd8f3b220",
+      "deviceType": "Rdm",
+      "deviceDetail": "Fueling Point 1, EMV 2.8.105.46",
+      "macAddress": "00155C40BFA8",
+      "lastActive": "2020-07-08T09:47:35.5+00:00",
+      "doorSecurityAlarm": "Unknown",
+      "pumpState": "Off",
+      "fuelingPoints": [
+        {
+          "id": 1,
+          "deviceId": "a1b0849f-51b4-4875-e6fe-bcfbd8f3b220",
+          "name": "FuelingPoint 1"
+        }
+      ],
+      "isLinkedToSite": true,
+      "site": "AT214",
+      "siteId": "69a2b1e1-a8ee-44da-83ef-54b44ec841b2",
+      "isActive": false,
+      "isDecommissioned": false
+    },
+    {
+      "id": "b30caa01-0034-e6df-773d-73246165b7e2",
+      "deviceType": "Rdm",
+      "deviceDetail": "Fueling Point 4 , Fueling Point 3, EMV 2.8.105.46",
+      "macAddress": "00155C40C15A",
+      "lastActive": "2020-07-08T11:59:11.195+00:00",
+      "doorSecurityAlarm": "Unknown",
+      "pumpState": "On",
+      "fuelingPoints": [
+        {
+          "id": 4,
+          "deviceId": "b30caa01-0034-e6df-773d-73246165b7e2",
+          "name": "FuelingPoint 4"
+        },
+        {
+          "id": 3,
+          "deviceId": "b30caa01-0034-e6df-773d-73246165b7e2",
+          "name": "FuelingPoint 3"
+        }
+      ],
+      "isLinkedToSite": true,
+      "site": "AT214",
+      "siteId": "69a2b1e1-a8ee-44da-83ef-54b44ec841b2",
+      "isActive": true,
+      "isDecommissioned": false
+    }
+  ],
+  "customer": {
+    "id": "db48181c-5f9f-4f40-982e-9fcfe61c604d",
+    "name": "Kroger",
+    "authenticationType": "Idp",
+    "sites": []
+  },
+  "siteActivityStatus": "Trouble",
+  "timeZone": "Eastern Standard Time",
+  "userGroups": [
+    {
+      "userGroupID": "1703a260-60fb-4601-9665-84640bd2ee70",
+      "isExplicit": true
+    },
+    {
+      "userGroupID": "49dc11f5-0392-4a97-b6b3-6b97fffc4d95",
+      "isExplicit": true
+    },
+    {
+      "userGroupID": "521065b0-bf94-454b-87d7-fdef44893e75",
+      "isExplicit": true
+    },
+    {
+      "userGroupID": "a18943db-7236-4338-9e2f-76d05bd13d60",
+      "isExplicit": true
+    },
+    {
+      "userGroupID": "db48181c-5f9f-4f40-982e-9fcfe61c604d",
+      "isExplicit": true
+    },
+    {
+      "userGroupID": "e6068788-fa81-46ac-8bfc-1fcbcc567cd0",
+      "isExplicit": true
+    }
+  ],
+  "isMediaSupported": false
+}
